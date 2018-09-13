@@ -4,7 +4,7 @@
 
 #include "filter.h"
 
-#define type float
+typedef float type;
 
 int main() {
 	Filter<type> f1{ std::vector<type>{3,3,3} };
